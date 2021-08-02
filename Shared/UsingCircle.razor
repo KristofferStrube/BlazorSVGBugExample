@@ -1,0 +1,6 @@
+﻿<use xlink:href="#red" x=@Position.x y=@Position.y></use>
+
+@code {
+    [CascadingParameter]
+    protected (double x, double y) Position { get; set; }
+}
